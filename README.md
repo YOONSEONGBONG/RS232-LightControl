@@ -1,4 +1,4 @@
 # RS232-LightControl
 
-visual studio 2008
-multiByte
+Working environment: visual studio 2008
+charSet: multiByte
