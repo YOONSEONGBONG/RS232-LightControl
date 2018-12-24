@@ -1,0 +1,13 @@
+C:\Users\feng9\Documents\Visual Studio 2008\Projects\LightCtrl_CSharp\LightCtrl_CSharp\bin\x86\Debug\LightCtrl_CSharp.exe
+C:\Users\feng9\Documents\Visual Studio 2008\Projects\LightCtrl_CSharp\LightCtrl_CSharp\bin\x86\Debug\Interop.LightControl_ocxLib.dll
+C:\Users\feng9\Documents\Visual Studio 2008\Projects\LightCtrl_CSharp\LightCtrl_CSharp\bin\x86\Debug\AxInterop.LightControl_ocxLib.dll
+C:\Users\feng9\Documents\Visual Studio 2008\Projects\LightCtrl_CSharp\LightCtrl_CSharp\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\feng9\Documents\Visual Studio 2008\Projects\LightCtrl_CSharp\LightCtrl_CSharp\obj\x86\Debug\Interop.LightControl_ocxLib.dll
+C:\Users\feng9\Documents\Visual Studio 2008\Projects\LightCtrl_CSharp\LightCtrl_CSharp\obj\x86\Debug\AxInterop.LightControl_ocxLib.dll
+C:\Users\feng9\Documents\Visual Studio 2008\Projects\LightCtrl_CSharp\LightCtrl_CSharp\obj\x86\Debug\LightCtrl_CSharp.csproj.ResolveComReference.cache
+C:\Users\feng9\Documents\Visual Studio 2008\Projects\LightCtrl_CSharp\LightCtrl_CSharp\obj\x86\Debug\LightCtrl_CSharp.LightCtrl.resources
+C:\Users\feng9\Documents\Visual Studio 2008\Projects\LightCtrl_CSharp\LightCtrl_CSharp\obj\x86\Debug\LightCtrl_CSharp.Properties.Resources.resources
+C:\Users\feng9\Documents\Visual Studio 2008\Projects\LightCtrl_CSharp\LightCtrl_CSharp\obj\x86\Debug\LightCtrl_CSharp.csproj.GenerateResource.Cache
+C:\Users\feng9\Documents\Visual Studio 2008\Projects\LightCtrl_CSharp\LightCtrl_CSharp\obj\x86\Debug\LightCtrl_CSharp.exe
+C:\Users\feng9\Documents\Visual Studio 2008\Projects\LightCtrl_CSharp\LightCtrl_CSharp\obj\x86\Debug\LightCtrl_CSharp.pdb
+C:\Users\feng9\Documents\Visual Studio 2008\Projects\LightCtrl_CSharp\LightCtrl_CSharp\bin\x86\Debug\LightCtrl_CSharp.pdb

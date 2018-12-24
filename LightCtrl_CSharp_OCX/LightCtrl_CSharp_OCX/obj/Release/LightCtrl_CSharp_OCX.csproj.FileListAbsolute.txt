@@ -1,0 +1,13 @@
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\LightCtrl_CSharp_OCX\LightCtrl_CSharp_OCX\bin\Release\LightCtrl_CSharp_OCX.exe
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\LightCtrl_CSharp_OCX\LightCtrl_CSharp_OCX\bin\Release\LightCtrl_CSharp_OCX.pdb
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\LightCtrl_CSharp_OCX\LightCtrl_CSharp_OCX\bin\Release\Interop.LightControl_ocxLib.dll
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\LightCtrl_CSharp_OCX\LightCtrl_CSharp_OCX\bin\Release\AxInterop.LightControl_ocxLib.dll
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\LightCtrl_CSharp_OCX\LightCtrl_CSharp_OCX\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\LightCtrl_CSharp_OCX\LightCtrl_CSharp_OCX\obj\Release\Interop.LightControl_ocxLib.dll
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\LightCtrl_CSharp_OCX\LightCtrl_CSharp_OCX\obj\Release\AxInterop.LightControl_ocxLib.dll
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\LightCtrl_CSharp_OCX\LightCtrl_CSharp_OCX\obj\Release\LightCtrl_CSharp_OCX.csproj.ResolveComReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\LightCtrl_CSharp_OCX\LightCtrl_CSharp_OCX\obj\Release\LightCtrl_CSharp_OCX.LightCtrl.resources
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\LightCtrl_CSharp_OCX\LightCtrl_CSharp_OCX\obj\Release\LightCtrl_CSharp_OCX.Properties.Resources.resources
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\LightCtrl_CSharp_OCX\LightCtrl_CSharp_OCX\obj\Release\LightCtrl_CSharp_OCX.csproj.GenerateResource.Cache
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\LightCtrl_CSharp_OCX\LightCtrl_CSharp_OCX\obj\Release\LightCtrl_CSharp_OCX.exe
+C:\Users\Administrator\Documents\Visual Studio 2008\Projects\LightCtrl_CSharp_OCX\LightCtrl_CSharp_OCX\obj\Release\LightCtrl_CSharp_OCX.pdb

@@ -1,0 +1,283 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 한국어 resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+#ifdef _WIN32
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)\r\n"
+    "LANGUAGE 18, 1\r\n"
+    "#pragma code_page(949)\r\n"
+    "#include ""res\\LightCtrl.rc2""  // Microsoft Visual C++ 이외의 다른 도구에서 편집한 리소스입니다.\r\n"
+    "#include ""l.KOR\\afxres.rc""      // 표준 구성 요소입니다.\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\LightCtrl.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 170, 62
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "LightCtrl 정보"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,14,14,21,20
+    LTEXT           "LightCtrl, 버전 1.0",IDC_STATIC,42,14,114,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2018",IDC_STATIC,42,26,114,8
+    DEFPUSHBUTTON   "확인",IDOK,113,41,50,14,WS_GROUP
+END
+
+IDD_LIGHTCTRL_DIALOG DIALOGEX 0, 0, 247, 250
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "LightCtrl"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "AUTO TEST",IDC_AUTOTEST,7,28,73,22
+    PUSHBUTTON      "SAVE",IDC_SAVE,84,28,78,22
+    CONTROL         "접속하기",IDC_CONNECT,"Button",BS_AUTOCHECKBOX | BS_PUSHLIKE | WS_TABSTOP,7,211,110,31
+    CONTROL         "접속끊기",IDC_DISCONNECT,"Button",BS_AUTOCHECKBOX | BS_PUSHLIKE | WS_TABSTOP,125,211,115,31
+    CONTROL         "ON/OFF",IDC_ONOFF,"Button",BS_AUTOCHECKBOX | BS_PUSHLIKE | WS_TABSTOP,166,28,74,22
+    COMBOBOX        IDC_AUTOTEST_CHANNEL,54,7,39,73,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "초기화",IDC_WRITE_INIT,7,176,233,30
+    RTEXT           "테스트 체널 :",IDC_STATIC,6,7,45,13,SS_CENTERIMAGE
+    CONTROL         "",IDC_SLIDER1,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,39,56,144,15
+    LTEXT           "처널 1:",IDC_STATIC,8,57,35,8
+    EDITTEXT        IDC_EDIT_LEVEl_CH1,182,55,56,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_LEVEl_CH2,182,76,56,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_LEVEl_CH3,182,96,56,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_LEVEl_CH4,182,115,56,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_LEVEl_CH5,181,134,56,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_LEVEl_CH6,181,156,56,14,ES_AUTOHSCROLL
+    LTEXT           "처널 2:",IDC_STATIC,8,78,32,11
+    LTEXT           "채널 3:",IDC_STATIC,8,96,32,11
+    LTEXT           "채널 4:",IDC_STATIC,8,117,32,11
+    LTEXT           "채널 5:",IDC_STATIC,8,136,32,11
+    LTEXT           "채널 6:",IDC_STATIC,8,156,32,11
+    CONTROL         "",IDC_SLIDER2,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,38,74,145,15
+    CONTROL         "",IDC_SLIDER3,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,38,93,143,15
+    CONTROL         "",IDC_SLIDER4,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,37,115,145,15
+    CONTROL         "",IDC_SLIDER5,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,37,134,144,15
+    CONTROL         "",IDC_SLIDER6,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,36,154,146,15
+    COMBOBOX        IDC_AUTOTEST_SPEED,132,7,39,73,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    RTEXT           "SPEED :",IDC_STATIC,102,7,27,13,SS_CENTERIMAGE
+    COMBOBOX        IDC_AUTOTEST_Count,200,7,39,98,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    RTEXT           "횟수 :",IDC_STATIC,178,7,19,13,SS_CENTERIMAGE
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041203b5"
+        BEGIN
+            VALUE "CompanyName", "TODO: <회사 이름>"
+            VALUE "FileDescription", "TODO: <파일 설명>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "LightCtrl.exe"
+            VALUE "LegalCopyright", "TODO: (c) <회사 이름>.  All rights reserved."
+            VALUE "OriginalFilename", "LightCtrl.exe"
+            VALUE "ProductName", "TODO: <제품 이름>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x412, 949
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 163
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 55
+    END
+
+    IDD_LIGHTCTRL_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 240
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 242
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_LIGHTCTRL_DIALOG DLGINIT
+BEGIN
+    IDC_AUTOTEST_CHANNEL, 0x403, 6, 0
+0xa4c3, 0xceb3, 0x0031, 
+    IDC_AUTOTEST_CHANNEL, 0x403, 6, 0
+0xa4c3, 0xceb3, 0x0032, 
+    IDC_AUTOTEST_CHANNEL, 0x403, 6, 0
+0xa4c3, 0xceb3, 0x0033, 
+    IDC_AUTOTEST_CHANNEL, 0x403, 6, 0
+0xa4c3, 0xceb3, 0x0034, 
+    IDC_AUTOTEST_CHANNEL, 0x403, 6, 0
+0xa4c3, 0xceb3, 0x0035, 
+    IDC_AUTOTEST_CHANNEL, 0x403, 6, 0
+0xa4c3, 0xceb3, 0x0036, 
+    IDC_AUTOTEST_SPEED, 0x403, 2, 0
+0x0031, 
+    IDC_AUTOTEST_SPEED, 0x403, 2, 0
+0x0032, 
+    IDC_AUTOTEST_SPEED, 0x403, 2, 0
+0x0033, 
+    IDC_AUTOTEST_SPEED, 0x403, 2, 0
+0x0034, 
+    IDC_AUTOTEST_SPEED, 0x403, 2, 0
+0x0035, 
+    IDC_AUTOTEST_Count, 0x403, 2, 0
+0x0031, 
+    IDC_AUTOTEST_Count, 0x403, 2, 0
+0x0032, 
+    IDC_AUTOTEST_Count, 0x403, 2, 0
+0x0033, 
+    IDC_AUTOTEST_Count, 0x403, 2, 0
+0x0034, 
+    IDC_AUTOTEST_Count, 0x403, 2, 0
+0x0035, 
+    IDC_AUTOTEST_Count, 0x403, 2, 0
+0x0036, 
+    IDC_AUTOTEST_Count, 0x403, 2, 0
+0x0037, 
+    IDC_AUTOTEST_Count, 0x403, 2, 0
+0x0038, 
+    IDC_AUTOTEST_Count, 0x403, 2, 0
+0x0039, 
+    IDC_AUTOTEST_Count, 0x403, 3, 0
+0x3031, "\000" 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "LightCtrl 정보(&A)..."
+END
+
+#endif    // 한국어 resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+LANGUAGE 18, 1
+#pragma code_page(949)
+#include "res\LightCtrl.rc2"  // Microsoft Visual C++ 이외의 다른 도구에서 편집한 리소스입니다.
+#include "l.KOR\afxres.rc"      // 표준 구성 요소입니다.
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -1,0 +1,57 @@
+// LightControl_ocx.idl : ActiveX 컨트롤 프로젝트의 형식 라이브러리 소스입니다.
+
+// 이 파일은 MIDL 컴파일러 도구에 의해 처리되어
+// LightControl_ocx.ocx의 리소스가 되는
+// LightControl_ocx.ocx.
+
+#include <olectl.h>
+#include <idispids.h>
+
+[ uuid(76B98E19-F820-4C65-93A2-147E6E31C66D), version(1.0),
+  helpfile("LightControl_ocx.hlp"),
+  helpstring("LightControl_ocx ActiveX 컨트롤 모듈"),
+  control ]
+library LightControl_ocxLib
+{
+	importlib(STDOLE_TLB);
+
+	//  CLightControl_ocxCtrl의 기본 디스패치 인터페이스입니다.
+
+	[ uuid(9566B873-B2F4-4E89-AC4E-C519D237560B),
+	  helpstring("LightControl_ocx Control의 디스패치 인터페이스")]
+	dispinterface _DLightControl_ocx
+	{
+		properties:
+		methods:
+
+			[id(DISPID_ABOUTBOX)] void AboutBox();
+			[id(1), helpstring("메서드 PortOpen")] LONG PortOpen(LONG portNum);
+			[id(2), helpstring("메서드 PortClose")] void PortClose(void);
+			[id(3), helpstring("메서드 GetConnected")] LONG GetConnected(void);
+			[id(4), helpstring("메서드 SendLightMessage")] void SendLightMessage(LONG nLightChannel, LONG LightEventFlag, LONG nLightOnOff, LONG nLightLevel);
+			[id(5), helpstring("메서드 LightAutoTest")] void LightAutoTest(LONG nLightAutoTestChannel, LONG nLightAutoTestSpeed, LONG nLightAuoTestCount);
+	};
+
+	//  CLightControl_ocxCtrl의 이벤트 디스패치 인터페이스입니다.
+
+	[ uuid(E5F440A7-05DB-4AF2-AE96-8607055A3468),
+	  helpstring("LightControl_ocx Control의 이벤트 인터페이스") ]
+	dispinterface _DLightControl_ocxEvents
+	{
+		properties:
+			//  이벤트 인터페이스에 속성이 없습니다.
+
+		methods:
+	};
+
+	//  CLightControl_ocxCtrl의 클래스 정보입니다.
+
+	[ uuid(D3DA0BCF-2F14-4D39-9734-AB0151F9358A),
+	  helpstring("LightControl_ocx Control"), control ]
+	coclass LightControl_ocx
+	{
+		[default] dispinterface _DLightControl_ocx;
+		[default, source] dispinterface _DLightControl_ocxEvents;
+	};
+
+};

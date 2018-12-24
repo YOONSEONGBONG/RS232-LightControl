@@ -1,0 +1,1 @@
+regsvr32 -u C:\Users\Administrator\Desktop\LightTest\LightControl_ocx.ocx
